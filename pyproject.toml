@@ -1,0 +1,68 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pymawaqit"
+version = "0.1.0"
+description = "Python API wrapper for mawaqit.net, the mosque prayer-times platform. Search mosques, read today's times, and pull the full-year calendar and announcements. No auth, no scraping headaches."
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+requires-python = ">=3.10"
+authors = [
+    { name = "0xMH" }
+]
+keywords = [
+    "mawaqit",
+    "mawaqit-api",
+    "prayer-times",
+    "prayer-times-api",
+    "salah",
+    "salat",
+    "namaz",
+    "adhan",
+    "athan",
+    "iqama",
+    "mosque",
+    "mosque-finder",
+    "masjid",
+    "islam",
+    "islamic",
+    "muslim",
+    "ramadan",
+    "qibla",
+    "api",
+    "api-wrapper",
+    "client",
+    "sdk",
+    "reverse-engineering",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Religion",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: English",
+    "Natural Language :: Arabic",
+    "Typing :: Typed",
+]
+dependencies = [
+    "curl-cffi>=0.14.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/0xMH/pymawaqit"
+Documentation = "https://github.com/0xMH/pymawaqit#readme"
+Repository = "https://github.com/0xMH/pymawaqit"
+Issues = "https://github.com/0xMH/pymawaqit/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pymawaqit"]
