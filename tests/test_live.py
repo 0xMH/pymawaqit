@@ -3,7 +3,7 @@
 import os
 import unittest
 
-from pymawaqit import Mawaqit
+from mawaqit_py import Mawaqit
 
 
 LIVE = os.environ.get("MAWAQIT_LIVE") == "1"

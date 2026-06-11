@@ -1,6 +1,6 @@
 import unittest
 
-from pymawaqit import Mawaqit, Mosque
+from mawaqit_py import Mawaqit, Mosque
 
 
 class SearchParamTests(unittest.TestCase):

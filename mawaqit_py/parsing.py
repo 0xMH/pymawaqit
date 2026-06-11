@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from pymawaqit._parse_helpers import (
+from mawaqit_py._parse_helpers import (
     as_str,
     extract_conf_data,
     mapping,
@@ -13,7 +13,7 @@ from pymawaqit._parse_helpers import (
     parse_int,
     str_tuple,
 )
-from pymawaqit.mosque import Announcement, Calendar, ConfData, Mosque, PrayerTimes
+from mawaqit_py.mosque import Announcement, Calendar, ConfData, Mosque, PrayerTimes
 
 
 # Keys under which the search endpoint has been seen to wrap its result list.

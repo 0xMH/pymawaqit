@@ -1,6 +1,6 @@
 import unittest
 
-from pymawaqit import Announcement, Calendar, Mosque, PrayerTimes
+from mawaqit_py import Announcement, Calendar, Mosque, PrayerTimes
 
 
 class PrayerTimesTests(unittest.TestCase):

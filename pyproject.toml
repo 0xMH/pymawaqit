@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mawaqit-py"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python API wrapper for mawaqit.net, the mosque prayer-times platform. Search mosques, read today's times, and pull the full-year calendar and announcements. No auth, no scraping headaches."
 readme = "README.md"
 license = "AGPL-3.0-or-later"
@@ -59,11 +59,11 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/0xMH/pymawaqit"
-Documentation = "https://github.com/0xMH/pymawaqit#readme"
-Repository = "https://github.com/0xMH/pymawaqit"
-Issues = "https://github.com/0xMH/pymawaqit/issues"
-Changelog = "https://github.com/0xMH/pymawaqit/releases"
+Homepage = "https://github.com/0xMH/mawaqit-py"
+Documentation = "https://github.com/0xMH/mawaqit-py#readme"
+Repository = "https://github.com/0xMH/mawaqit-py"
+Issues = "https://github.com/0xMH/mawaqit-py/issues"
+Changelog = "https://github.com/0xMH/mawaqit-py/releases"
 
 [tool.hatch.build.targets.wheel]
-packages = ["pymawaqit"]
+packages = ["mawaqit_py"]

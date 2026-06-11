@@ -1,8 +1,8 @@
-"""Exception types raised by pymawaqit."""
+"""Exception types raised by mawaqit-py."""
 
 
 class MawaqitError(Exception):
-    """Base exception for pymawaqit errors."""
+    """Base exception for mawaqit-py errors."""
 
 
 class MawaqitRequestError(MawaqitError, RuntimeError):

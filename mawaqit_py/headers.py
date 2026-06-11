@@ -1,6 +1,6 @@
 """Request headers for MAWAQIT calls."""
 
-from pymawaqit.models import RequestProfile
+from mawaqit_py.models import RequestProfile
 
 
 def make_headers(profile: RequestProfile = "api") -> dict[str, str]:

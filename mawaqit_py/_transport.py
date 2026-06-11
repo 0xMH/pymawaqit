@@ -6,14 +6,14 @@ from typing import Any
 
 from curl_cffi import requests
 
-from pymawaqit.constants import (
+from mawaqit_py.constants import (
     DEFAULT_MAX_RETRIES,
     IMPERSONATE_POOL,
     RETRY_STATUS_CODES,
 )
-from pymawaqit.exceptions import MawaqitRequestError
-from pymawaqit.headers import make_headers
-from pymawaqit.models import RequestProfile
+from mawaqit_py.exceptions import MawaqitRequestError
+from mawaqit_py.headers import make_headers
+from mawaqit_py.models import RequestProfile
 
 
 @dataclass(slots=True)

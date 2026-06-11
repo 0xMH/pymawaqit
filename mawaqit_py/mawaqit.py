@@ -6,16 +6,16 @@ from collections.abc import Iterator
 from dataclasses import dataclass, field
 from typing import Any
 
-from pymawaqit._transport import _MawaqitTransport
-from pymawaqit.constants import (
+from mawaqit_py._transport import _MawaqitTransport
+from mawaqit_py.constants import (
     API_SEARCH,
     DEFAULT_LANG,
     DEFAULT_MAX_RETRIES,
     WEB_MOSQUE,
 )
-from pymawaqit.exceptions import ConfDataError, MawaqitRequestError, MosqueNotFound
-from pymawaqit.mosque import Announcement, Calendar, ConfData, Mosque
-from pymawaqit.parsing import parse_conf_data, parse_search_results
+from mawaqit_py.exceptions import ConfDataError, MawaqitRequestError, MosqueNotFound
+from mawaqit_py.mosque import Announcement, Calendar, ConfData, Mosque
+from mawaqit_py.parsing import parse_conf_data, parse_search_results
 
 
 _MosqueInput = Mosque | str

@@ -1,6 +1,6 @@
-# pymawaqit
+# mawaqit-py
 
-**pymawaqit** is a small Python client for [mawaqit.net](https://mawaqit.net), the platform behind prayer times for 8000+ mosques worldwide. It wraps the public search API and the per-mosque `confData` blob, so you get clean typed objects for mosques, today's prayer times, iqama offsets, the full-year calendar, and announcements, without manual HTML parsing.
+**mawaqit-py** is a small Python client for [mawaqit.net](https://mawaqit.net), the platform behind prayer times for 8000+ mosques worldwide. It wraps the public search API and the per-mosque `confData` blob, so you get clean typed objects for mosques, today's prayer times, iqama offsets, the full-year calendar, and announcements, without manual HTML parsing.
 
 The search endpoint needs no authentication and already embeds today's prayer times in every result. The per-mosque year calendar and announcements are not exposed by the public API, so they are read from the `confData` blob on each mosque's web page.
 
@@ -20,7 +20,7 @@ uv run python -m unittest discover -s tests
 ## Quick Start
 
 ```python
-from pymawaqit import Mawaqit
+from mawaqit_py import Mawaqit
 
 with Mawaqit() as client:
     # Search by name or city

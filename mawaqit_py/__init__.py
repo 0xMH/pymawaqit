@@ -2,7 +2,7 @@
 MAWAQIT - Python API for mawaqit.net mosque prayer times.
 
 Example usage:
-    >>> from pymawaqit import Mawaqit
+    >>> from mawaqit_py import Mawaqit
     >>> with Mawaqit() as client:
     ...     mosques = client.search("amsterdam")
     ...     mosque = mosques[0]
@@ -18,14 +18,14 @@ Example usage:
 
 from importlib.metadata import PackageNotFoundError, version
 
-from pymawaqit.exceptions import (
+from mawaqit_py.exceptions import (
     ConfDataError,
     MawaqitError,
     MawaqitRequestError,
     MosqueNotFound,
 )
-from pymawaqit.mawaqit import Mawaqit
-from pymawaqit.mosque import (
+from mawaqit_py.mawaqit import Mawaqit
+from mawaqit_py.mosque import (
     Announcement,
     Calendar,
     ConfData,
@@ -34,7 +34,7 @@ from pymawaqit.mosque import (
 )
 
 try:
-    __version__ = version("pymawaqit")
+    __version__ = version("mawaqit-py")
 except PackageNotFoundError:  # running from a source checkout without install
     __version__ = "0.0.0+unknown"
 __all__ = [

@@ -9,8 +9,8 @@ Usage:
 import argparse
 import csv
 
-from pymawaqit import Mawaqit
-from pymawaqit.constants import TIME_NAMES
+from mawaqit_py import Mawaqit
+from mawaqit_py.constants import TIME_NAMES
 
 
 def main() -> None:

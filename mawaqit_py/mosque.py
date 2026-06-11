@@ -6,8 +6,8 @@ from collections.abc import Iterator, Sequence
 from dataclasses import dataclass, field
 from typing import Any
 
-from pymawaqit.constants import IQAMA_NAMES, PRAYER_NAMES, TIME_NAMES
-from pymawaqit.models import DictValue, JsonDict
+from mawaqit_py.constants import IQAMA_NAMES, PRAYER_NAMES, TIME_NAMES
+from mawaqit_py.models import DictValue, JsonDict
 
 
 @dataclass(frozen=True, slots=True)

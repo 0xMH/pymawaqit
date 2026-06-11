@@ -1,7 +1,7 @@
 import unittest
 
-from pymawaqit._parse_helpers import extract_conf_data
-from pymawaqit.parsing import (
+from mawaqit_py._parse_helpers import extract_conf_data
+from mawaqit_py.parsing import (
     conf_data_from_dict,
     parse_calendar,
     parse_mosque,

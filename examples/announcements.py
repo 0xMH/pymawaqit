@@ -7,7 +7,7 @@ Usage:
 
 import argparse
 
-from pymawaqit import Mawaqit
+from mawaqit_py import Mawaqit
 
 
 def main() -> None:

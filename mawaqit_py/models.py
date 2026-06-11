@@ -1,4 +1,4 @@
-"""Small value objects and shared type aliases for pymawaqit."""
+"""Small value objects and shared type aliases for mawaqit-py."""
 
 from __future__ import annotations
 
