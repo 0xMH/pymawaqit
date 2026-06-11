@@ -7,7 +7,7 @@ The search endpoint needs no authentication and already embeds today's prayer ti
 ## Installation
 
 ```bash
-pip install pymawaqit
+pip install mawaqit-py
 ```
 
 For local development:

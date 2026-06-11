@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pymawaqit"
+name = "mawaqit-py"
 version = "0.1.0"
 description = "Python API wrapper for mawaqit.net, the mosque prayer-times platform. Search mosques, read today's times, and pull the full-year calendar and announcements. No auth, no scraping headaches."
 readme = "README.md"
