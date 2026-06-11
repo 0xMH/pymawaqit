@@ -63,6 +63,7 @@ Homepage = "https://github.com/0xMH/pymawaqit"
 Documentation = "https://github.com/0xMH/pymawaqit#readme"
 Repository = "https://github.com/0xMH/pymawaqit"
 Issues = "https://github.com/0xMH/pymawaqit/issues"
+Changelog = "https://github.com/0xMH/pymawaqit/releases"
 
 [tool.hatch.build.targets.wheel]
 packages = ["pymawaqit"]
